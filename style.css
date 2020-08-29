@@ -1,0 +1,422 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.head{
+    background-image: url("Apollo.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:100vh;
+}
+nav{
+    background-color:rgba(17,34,34,1);
+    border:2px solid red;
+    height:80px;
+    box-sizing: border-box;
+}
+.Title{
+    float:left;
+    padding:15px;
+    Color:rgba(187,0,17,1);
+}
+/*.Header-Content {
+    padding-top:20%;
+    width:100%;
+}
+.Header-Content .heady{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left:47%;
+}
+.Header-Content .butt{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:red;
+    margin-left:50%;
+    padding:7px 37px;
+    border-radius: 3px;;
+}*/
+.Header-Content{
+   position:absolute;
+   top:50%;
+   left:50%;
+   width:100%;
+   height:200px;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+.Header-Content .butt{
+    height:auto;
+    margin-top:15%;
+    padding:8px 37px;
+    color:#fff;
+	font-size: 12px;
+    background-color: red;
+    border-radius:3px;
+}
+.nav-bar {
+    float:right;
+    padding-top:25px;
+    
+}
+.nav-bar a{
+    padding-right:20px;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-decoration: none;
+    Color:REd;
+}
+.flex{
+    margin-top:20px;
+    display:flex;
+    border:2px solid green;
+    flex-direction: row;
+    flex-flow:wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+.Card{
+  
+    width:20%;
+    height:350px;
+    border-radius: 3px;
+    border:1px solid black;
+    box-sizing: border-box;
+    background-color:rgba(182,68,118,1);
+}
+.Card .img{
+    background-color: beige;
+}
+.Card .image{
+    width:100%;
+    height:250px;
+}
+.Card .header{
+    color:red;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Card .Button{
+    margin-top:30px;
+    margin-left:80px;
+}
+.Card  .btn{
+    background-color:yellow;
+    padding: 8px 37px;
+    border-radius: 3px;;
+}
+
+footer{
+    clear:both;
+    width:100%;
+    height:15vh;
+    background-color:black;
+    text-transform: uppercase;
+    color:rgba(241,235,235,1);
+    text-align:center;
+    box-sizing: border-box;
+    padding-top:25px;
+}
+.nav-bar a:hover{
+    color:green;
+}
+
+@media (min-width:1000px) and (max-width:1015px)
+{
+    .Card .header{
+        padding-left:20px;
+    }
+    .Card .Button{
+        margin-left:45px;
+    }
+}
+@media (min-width:1016px) and (max-width:1090px){
+    .Card .header{
+        padding-left:22px;
+    }
+    .Card .Button{
+        margin-left:50px;
+    }
+}
+@media (min-width:1091px) and (max-width:1172px){
+    .Card .header{
+        padding-left:35px;
+    }
+    .Card .Button{
+        margin-left:60px;
+    }
+}
+@media (min-width:1173px) and (max-width:1282px){
+    .Card .Button{
+        margin-left:68px;
+    }
+}
+@media (max-width:999px){
+    .Card {
+        width:30%;
+        margin-top:15px;
+    }
+}
+@media (min-width:681px) and (max-width:768px){
+    .Card .header{
+        padding-left:20px;
+    }
+    .Card .Button{
+        margin-left:53px;
+    }
+
+}
+@media  (min-width:769px)   and  (max-width:800px)
+{ 
+    .Card .header{
+        padding-left:30px;
+    }
+    .Card .Button{
+        margin-left:60px;
+    }
+   
+} 
+@media (min-width: 801px)  and (max-width:840px){
+    .Card .Button{
+        margin-left:67px;
+    }
+}
+@media (min-width:841px) and (max-width:900px){
+    .Card .Button{
+        margin-left:75px;
+    }
+}
+@media (min-width:901px) and (max-width:945px){
+    .Card .Button{
+        margin-left:85px;
+    }
+}
+@media (min-width:946px) and (max-width:999px){
+    .Card .Button{
+        margin-left:90px;
+    }
+}
+@media (max-width:680px){
+    .Card{
+        width:40%;
+        margin-left:10px;
+        margin-top:15px;
+    }
+}
+@media (min-width:600px) and (max-width:615px){
+    .Card .Button{
+        margin-left:60px;
+    }
+}
+@media (min-width:616px) and (max-width:655px){
+    .Card .Button{
+        margin-left:70px;
+    }
+}
+@media (min-width:656px) and (max-width:680px){
+    .Card .Button{
+        margin-left:80px;
+    }
+}
+@media (max-width:599px){
+    .Card{
+        width:55%;
+        margin-top:15px;
+    }
+}
+@media (min-width:540px) and (max-width:599px){
+    .Card .Button{
+        margin-left:95px;
+    }
+}
+@media (max-width:500px){
+    .Card{
+        width:60%;
+        margin-top:15px;
+    }
+}
+@media (max-width:400px){
+    .Card{
+        width:80%;
+        margin-top:15px;
+    }
+}
+@media (max-width: 768px){
+    .head{
+        background-image: url("768Apollo.png");
+    }
+    nav{
+        width:100%;
+    }
+    .Title{
+        padding:20px;
+    }
+    
+   /* .flex{
+        display: block;
+        width:100%;
+        border: none;
+    }
+    .Card {
+        float:left;
+        box-sizing: border-box;
+        margin-bottom:10px;
+        margin-left:50px;
+        width:40%;
+    }*/
+    
+}
+
+@media (max-width:360px)
+{
+    .head{
+        background-image: url("360Apollo.png");
+        width:100%;
+
+    }
+    nav{
+        width:100%;
+    }
+    .Title{
+        padding:1px;
+    } 
+    .navbar{
+        padding-top:15px;
+    }
+    /*.flex{
+        display: block;
+        width:100%;
+        border: none;
+    }
+    .Card {
+        float:left;
+        box-sizing: border-box;
+        margin-bottom:10px;
+        margin-left:50px;
+        width:60%;
+    }*/
+}
+@media (max-width:375px){
+    .Title{
+        padding:1px;     
+       }
+       .nav-bar{
+        padding-top:15px;
+    }
+    .nav-bar a{
+        padding-right:5px;
+    }
+}
+@media (max-width:480px){
+    head{
+        background-image: url("480Apollo.png");
+    }
+    .Title{
+     padding-top:15px;
+     padding-right:2px;
+    }
+    .nav-bar{
+        padding-top:18px;
+    }
+    .nav-bar a{
+        padding-right:10px;
+    }
+    /*.flex{
+        display: block;
+        width:100%;
+        border: none;
+    }
+    .Card {
+        float:left;
+        box-sizing: border-box;
+        margin-bottom:10px;
+        margin-left:55px;
+        width:65%;
+    }*/
+
+}
+@media (max-width:320px)
+{
+    .head{
+        background-image: url("320Apollo.png");
+
+    }
+    nav{
+        width:100%;
+    }
+    .Title{
+        padding:10px;
+    } 
+    .nav-bar{
+        padding-top:5px;
+    }
+    .nav-bar a{
+        padding-right:5px;
+    }
+    /*.flex{
+        display: block;
+        width:100%;
+        border: none;
+    }
+    .Card {
+        float:left;
+        box-sizing: border-box;
+        margin-bottom:10px;
+        margin-left:40px;
+        width:80%;
+    }*/
+}
+/* About us  */
+.main{
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.About{
+    margin:45px;
+    width:45%;
+    background-color:rgba(127,132,16,1);
+    box-sizing: border-box;
+}
+.About .About-title{
+    color:red;
+    font-size:40px;
+    Margin-top:10px;
+    Margin-left:10px;
+}
+.Desc{
+    width:100%;
+}
+.Affiliate{
+    height:150px;
+    margin-right:50px;
+    width:25%;
+    box-sizing: border-box;
+}
+.Affiliate .Amazon{
+    width:100%;
+    height:auto;
+}
+
+@media (max-width:600px){
+ .main{
+     display:block;
+
+ }
+ .Affiliate {
+     margin-left:15px;
+ }
+ .About{
+    margin:20px;
+ }
+ .About .About-title{
+     width:100%;
+     font-size:20px
+ }
+}
